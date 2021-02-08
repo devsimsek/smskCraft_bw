@@ -1,9 +1,0 @@
-Messages:
-  Prefix: '&8[&6CrispyMC&8] &r'
-  Reload-Config: '&aThe config has been reloaded.'
-  No-Permission: '&cYou don''t have permission for this command!'
-  Chat-Crash: '&cYou have written an incorrect message!'
-  Sign-Crash: '&cYou have written an incorrect sign message!'
-  Crash-With-Command: '&cYou have written an incorrect message!'
-  Illegal-Items: '&cIllegal items were found and deleted on your inventory!'
-  Inventory-Crash: '&cYou have written an incorrect item name!'

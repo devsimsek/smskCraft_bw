@@ -1,7 +1,0 @@
-MySQLenabled: 'false'
-data:
-  host: 'localhost'
-  port: '3306'
-  dbName: 'tab'
-  user: 'root'
-  password: ''
