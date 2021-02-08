@@ -1,0 +1,266 @@
+# # # # # # # # # # # # # # # # # # # # # # 
+#               BedWars                   #
+#       Made by xTheMAG & jer3m01         #
+#     If you really like the plugin       #
+#     Then please dont forget to leave    #
+#       A positive 5 stars review!        #
+# # # # # # # # # # # # # # # # # # # # # # 
+
+MySQL:
+  Enable: false
+  Database: database
+  Host: localhost
+  Port: '3306'
+  User: root
+  Password: easypass
+Vault:
+  Enable: false
+BungeeCord:
+  Main Server:
+    Enable: false
+    Arena:
+      Arena1:
+        BungeeCord Server Name: bw1
+        Players Per Team: 1
+        Islands: 8
+      Arena2:
+        BungeeCord Server Name: bw2
+        Players Per Team: 2
+        Islands: 4
+  Arena Server:
+    Enable: false
+    Arena Name: Hollow
+Selector:
+  Use Old: true
+  Map Item: MAP
+  Inventory:
+    Main: Play Bedwars
+    Arena: Select arena
+    Team Selector: Select team
+  Lore:
+  - '&8%bedwars_arena_mode%'
+  - ' '
+  - '&7Players: &a%bedwars_arena_online%/%bedwars_arena_max%'
+  - '&7State: &a%bedwars_arena_state%'
+  - '  '
+  - '&eClick to play!'
+Items:
+  Leave:
+    Give On Join: true
+    Material: 355
+    Durability: 0
+    Name: '&c&lReturn to Lobby &7(Right Click)'
+    Slot: 8
+  Team Selector:
+    Give On Join: false
+    Material: 347
+    Durability: 0
+    Name: '&f&lTeam Selector &7(Right Click)'
+    Slot: 0
+  Kit Selector:
+    Give On Join: false
+    Material: 54
+    Durability: 0
+    Name: '&7&lKit Selector &7(Right Click)'
+    Slot: 1
+  Arena Selector:
+    Give On Join: false
+    Material: 345
+    Durability: 0
+    Name: '&e&lSelect Arena &7(Right Click)'
+    Slot: 0
+  Stats:
+    Give On Join: false
+    Material: 339
+    Durability: 0
+    Name: '&c&lStats &7(Right Click)'
+    Slot: 1
+  Back:
+    Give On Join: false
+    Material: 341
+    Durability: 0
+    Name: '&a&lBack to Lobby &7(Right Click)'
+    Slot: 8
+  Party:
+    Give On Join: false
+    Material: 352
+    Durability: 0
+    Name: '&d&lParty &7(Right Click)'
+    Slot: 4
+Options:
+  Main Server: Hub
+  Play Command: bw play
+Spectator:
+  Gamemode: 0
+  Title: '&e&lGAME END!'
+  Subtitle: '&7You are now a spectator!'
+  Item:
+    Teleporter:
+      Material: 345
+      Name: '&e&lTeleporter &7(Right Click)'
+      Slot: 0
+    Settings:
+      Material: 404
+      Name: '&b&lSpectator Setings &7(Right Click)'
+      Slot: 4
+Reward:
+  Bed Destroy:
+    Coins: 5
+    Command: false
+    Commands:
+    - give <PLAYER> diamond 1
+  Kills:
+    Coins: 1
+    Command: false
+    Commands:
+    - give <PLAYER> diamond 1
+  Wins:
+    Coins: 10
+    Command: false
+    Commands:
+    - give <PLAYER> diamond 1
+Lobby Reward:
+  Wins:
+    Command: false
+    Commands:
+    - crate key <PLAYER> diamond
+  Lose:
+    Command: false
+    Commands:
+    - crate key <PLAYER> dirt
+Arena:
+  Bed Type: BED_BLOCK
+  Default Kit: Default
+  Map Size: 250
+  Waiting Time: 10
+  Round Time: 6
+  Material:
+    Iron: IRON_INGOT
+    Gold: GOLD_INGOT
+    Diamond: DIAMOND
+    Emerald: EMERALD
+    Diamond Skull: DIAMOND_BLOCK
+    Emerald Skull: EMERALD_BLOCK
+  Generator:
+    Time:
+      Iron: 1
+      Gold: 5
+      Diamond:
+        '1': 30
+        '2': 15
+        '3': 5
+      Emerald:
+        '1': 60
+        '2': 30
+        '3': 15
+  Team Selector: false
+  Kits: false
+  PvP Lobby: false
+Party:
+  Use Party And Friend Hook: false
+  Enabled: false
+  Invite Timeout: 60
+  Offline Timeout: 300
+  Main GUI:
+    Name: '&6Party'
+    Invite Item:
+      Name: '&aInvite a Player'
+      Item: STAINED_CLAY
+      Durability: 13
+      Lore:
+      - '&eClick to invite a player'
+    Members Item:
+      Name: '&7Members'
+      Item: SKULL;%partyleader%
+      Durability: 0
+      As Member Lore:
+      - '&eClick to list the members'
+      As Leader Lore:
+      - '&eClick to manage the members'
+    Leave Item:
+      Name: '&4Leave'
+      Item: STAINED_CLAY
+      Durability: 14
+      Lore:
+      - '&cClick to leave the party&7,'
+      - '&7if you are the leader another player'
+      - '&7will be promoted'
+    Close Item:
+      Name: '&cClose'
+      Item: BARRIER
+      Durability: 0
+      Lore:
+      - '&eClick to close.'
+  Members GUI:
+    Name: '&7Party Members'
+    Member Item:
+      Name: <STATUS> &7%playerdisplay%
+      Item: SKULL;%player%
+      Durability: 0
+      As Member Lore: []
+      As Leader Lore:
+      - '&eRight Click to promote.'
+      - '&eLeft Click to kick.'
+    Back Item:
+      Name: '&aBack'
+      Item: ARROW
+      Durability: 0
+      Lore:
+      - '&eClick to go back to the previous menu.'
+Scoreboard:
+  Enabled: true
+  Lobby: true
+  Waiting: true
+  In Game: true
+Shop:
+  Armor:
+    Chain:
+      Keep On Death: true
+      Replace With: LEATHER
+    Iron:
+      Keep On Death: true
+      Replace With: CHAIN
+    Diamond:
+      Keep On Death: true
+      Replace With: IRON
+    Elytra:
+      Keep On Death: false
+      Replace With: LEATHER
+    Chain Elytra:
+      Keep On Death: false
+      Replace With: CHAIN
+    Iron Elytra:
+      Keep On Death: false
+      Replace With: IRON
+    Diamond Elytra:
+      Keep On Death: false
+      Replace With: IRON_ELYTRA
+Per World:
+  Whitelist:
+    Enable: false
+    Worlds:
+    - world
+  Blacklist:
+    Enable: false
+    Worlds:
+    - world_the_nether
+    - world_nether
+Stats:
+  Inventory:
+    Title:
+      Profile: '&eProfile'
+      Achievement: '&eAchievements'
+  Item:
+    Profile: '&e<PLAYER>''s profile'
+    Stats: '&aStats'
+    Close: '&cClose'
+    Achievement: '&eAchievements'
+    Achievements: '&e<PLAYER>''s achievements'
+    Back: '&cBack'
+Enable:
+  Team Selector: false
+Lobby: world,-38.31351240989154,71.0,0.46349755697239176,-91.00114,6.5999928
+Hologram:
+  Location:
+    Stats: world,3.570641535852591,67.0,-14.076934777264764,68.39956,-0.62736225
+    Top: world,-4.460154831356045,70.0,-25.620750727953286,1.7626958,-0.794485

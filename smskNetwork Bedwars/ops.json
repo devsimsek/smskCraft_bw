@@ -1,0 +1,20 @@
+[
+  {
+    "uuid": "98936b88-ce51-399c-91c7-8e6c39356cb2",
+    "name": "CrispyBow",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "9f1ad943-d7b5-3566-82b7-488c33ba5fa9",
+    "name": "crispy",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "f8d7e8e9-0738-35ca-a096-0c925c105098",
+    "name": "mtnsmsk",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]

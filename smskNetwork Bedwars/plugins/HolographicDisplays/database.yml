@@ -1,0 +1,39 @@
+solo:
+  location: world, 1.500, 70.600, -5.458
+  lines:
+  - '&e&lCLICK TO PLAY'
+  - '&bSolo &7[1.5]'
+doubles:
+  location: world, 3.500, 70.600, -2.500
+  lines:
+  - '&e&lCLICK TO PLAY'
+  - '&bDoubles &7[1.5]'
+3v3v3v3:
+  location: world, 3.500, 70.600, 3.500
+  lines:
+  - '&e&lCLICK TO PLAY'
+  - '&b3v3v3v3 &7[1.5]'
+4v4v4v4:
+  location: world, 1.500, 70.600, 6.500
+  lines:
+  - '&e&lCLICK TO PLAY'
+  - '&b4v4v4v4 &7[1.5]'
+author:
+  location: world, 5.700, 72.200, -25.998
+  lines:
+  - '&d&lSimsek Network'
+  - '&e&lBedwars'
+  - '&c'
+  - '&bbw.smsk.ga'
+quest:
+  location: world, -8.500, 69.600, 10.500
+  lines:
+  - '&e&lCLICK TO WIEW'
+  - '&bInformation'
+welcome:
+  location: world, -25.767, 74.029, 0.400
+  lines:
+  - '&d&lWelcome!'
+  - '&eto Simsek Network!'
+  - '&e'
+  - '&bbw.smsk.ga'

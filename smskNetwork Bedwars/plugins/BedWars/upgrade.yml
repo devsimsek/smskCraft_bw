@@ -1,0 +1,128 @@
+Upgrade:
+  Sharpened Swords:
+    Price:
+      Solo: 4
+      Doubles: 4
+      Triples: 8
+      Quadruples: 8
+    Lore:
+    - '&7Your team permanently gains'
+    - '&7Sharpnes I on all swords and'
+    - '&7axes'
+    - ' '
+    - '&7Cost: &b<PRICE> Diamonds'
+    - ' '
+  Reinforced Armor:
+    Price:
+      Solo:
+        Tier 1: 2
+        Tier 2: 4
+        Tier 3: 8
+        Tier 4: 16
+      Doubles:
+        Tier 1: 2
+        Tier 2: 4
+        Tier 3: 8
+        Tier 4: 16
+      Triples:
+        Tier 1: 5
+        Tier 2: 10
+        Tier 3: 20
+        Tier 4: 30
+      Quadruples:
+        Tier 1: 5
+        Tier 2: 10
+        Tier 3: 20
+        Tier 4: 30
+    Lore:
+    - '&7Your team permanently gains'
+    - '&7Protection on all armor pieces!'
+    - ' '
+    - '@1Tier 1: Protection I, &b<I> Diamonds'
+    - '@2Tier 2: Protection II, &b<II> Diamonds'
+    - '@3Tier 3: Protection III, &b<III> Diamonds'
+    - '@4Tier 4: Protection IV, &b<IV> Diamonds'
+    - ' '
+  Maniac Miner:
+    Price:
+      Solo:
+        Tier 1: 2
+        Tier 2: 4
+      Doubles:
+        Tier 1: 2
+        Tier 2: 4
+      Triples:
+        Tier 1: 4
+        Tier 2: 8
+      Quadruples:
+        Tier 1: 4
+        Tier 2: 8
+    Lore:
+    - '&7All players on your team'
+    - '&7permanently gain Haste!'
+    - ' '
+    - '@1Tier 1: Haste I, &b<I> Diamonds'
+    - '@2Tier 2: Haste II, &b<II> Diamonds'
+    - ' '
+  Iron Forge:
+    Price:
+      Solo:
+        Tier 1: 2
+        Tier 2: 4
+        Tier 3: 6
+        Tier 4: 8
+      Doubles:
+        Tier 1: 2
+        Tier 2: 4
+        Tier 3: 6
+        Tier 4: 8
+      Triples:
+        Tier 1: 4
+        Tier 2: 8
+        Tier 3: 12
+        Tier 4: 16
+      Quadruples:
+        Tier 1: 4
+        Tier 2: 8
+        Tier 3: 12
+        Tier 4: 16
+    Lore:
+    - '&7Upgrade resource spawning on'
+    - '&7your island!'
+    - ' '
+    - '@1Tier 1: +50% Resoruces, &b<I> Diamonds'
+    - '@2Tier 2: +100% Resources, &b<II> Diamonds'
+    - '@3Tier 3: Spawn emeralds, &b<III> Diamonds'
+    - '@4Tier 4: +200% Resoruces, &b<IV> Diamonds'
+    - ' '
+  Heal Pool:
+    Price:
+      Solo: 1
+      Doubles: 1
+      Triples: 3
+      Quadruples: 3
+    Lore:
+    - '&7Creates a Regenration field'
+    - '&7around your base!'
+    - ' '
+    - '&7Cost: &b<PRICE> Diamonds'
+    - ' '
+  Its a Trap:
+    Price:
+      Solo: 1
+      Doubles: 1
+      Triples: 2
+      Quadruples: 2
+    Lore:
+    - '&7Inflicts Blindness and Slowness'
+    - '&7for 5 seconds.!'
+    - ' '
+    - '&7Cost: &b<PRICE> Diamonds'
+    - ' '
+Message:
+  Purchased: '&a<PLAYER> purchased &6<ITEM>&f.'
+  Unlocked: '&aUNLOCKED'
+  Have: '&cYou already unlocked this upgrade!'
+  Trap:
+    Title: '&cIt''s a trap'
+    Subtitle: '&7Come and defend your &cbed'

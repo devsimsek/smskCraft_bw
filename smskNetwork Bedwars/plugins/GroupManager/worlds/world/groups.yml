@@ -1,0 +1,202 @@
+# Group inheritance
+#
+# Any inherited groups prefixed with a g: are global groups
+# and are inherited from the GlobalGroups.yml.
+#
+# Groups without the g: prefix are groups local to this world
+# and are defined in the this groups.yml file.
+#
+# Local group inheritances define your promotion tree when using 'manpromote/mandemote'
+
+groups:
+  Moderator:
+    default: false
+    permissions: []
+    inheritance:
+    - builder
+    - crispydisguise.disguise
+    - crispydisguise.undisguise
+    - crispydisguise.disguisecheck
+    - chatcolor.use
+    - g:groupmanager_moderator
+    - g:bukkit_moderator
+    - g:essentials_moderator
+    - g:towny_moderator
+    - g:vanish_moderator
+    info:
+      build: true
+      prefix: '&c[MOD] &7'
+      suffix: ''
+  Owner:
+    default: false
+    permissions:
+    - +vanish.effects.toggle.all
+    - -vanish.effects.*
+    - '*'
+    - supersystem.*
+    - crispydisguise.disguise
+    - crispydisguise.undisguise
+    - crispydisguise.disguisecheck
+    - chatcolor.use
+    inheritance:
+    - admin
+    info:
+      build: true
+      prefix: '&4[OWNER] '
+      suffix: ''
+  Builder:
+    default: false
+    permissions:
+    - crispydisguise.disguise
+    - crispydisguise.undisguise
+    - chatcolor.use
+    inheritance:
+    - default
+    - crispydisguise.disguise
+    - crispydisguise.undisguise
+    - chatcolor.use
+    - g:essentials_builder
+    - g:towny_builder
+    info:
+      build: true
+      prefix: '&d[BUILDER] '
+      suffix: ''
+  VIP:
+    default: false
+    permissions:
+    - modifyworld.*
+    - gadgetsmenu.cooldown.bypass
+    - gadgetsmenu.menuselector
+    - gadgetsmenu.cosmetics.*
+    - nofall.use
+    - joineffect.speed
+    - gadgetsmenu.animations.*
+    - gadgetsmenu.mysteryboxes.open.1
+    inheritance:
+    - Default
+    - g:essentials_builder
+    - g:towny_builder
+    info:
+      build: true
+      prefix: '&a[VIP] '
+      suffix: ''
+  VIP+:
+    default: false
+    permissions:
+    - modifyworld.*
+    - gadgetsmenu.cooldown.bypass
+    - gadgetsmenu.menuselector
+    - gadgetsmenu.cosmetics.*
+    - nofall.use
+    - joineffect.speed
+    - gadgetsmenu.animations.*
+    - gadgetsmenu.mysteryboxes.open.1
+    - gadgetsmenu.mysteryboxes.open.2
+    inheritance:
+    - Default
+    - g:essentials_builder
+    - g:towny_builder
+    info:
+      build: true
+      prefix: '&a[VIP&6+&a] '
+      suffix: ''
+  MVP:
+    default: false
+    permissions:
+    - modifyworld.*
+    - gadgetsmenu.cooldown.bypass
+    - gadgetsmenu.menuselector
+    - gadgetsmenu.cosmetics.*
+    - nofall.use
+    - joineffect.speed
+    - gadgetsmenu.animations.*
+    - gadgetsmenu.mysteryboxes.open.1
+    - gadgetsmenu.mysteryboxes.open.2
+    - gadgetsmenu.mysteryboxes.open.3
+    inheritance:
+    - Default
+    - g:essentials_builder
+    - g:towny_builder
+    info:
+      build: true
+      prefix: '&b[MVP] '
+      suffix: ''
+  MVP+:
+    default: false
+    permissions:
+    - modifyworld.*
+    - gadgetsmenu.cooldown.bypass
+    - gadgetsmenu.menuselector
+    - gadgetsmenu.cosmetics.*
+    - nofall.use
+    - joineffect.speed
+    - gadgetsmenu.animations.*
+    - gadgetsmenu.mysteryboxes.open.1
+    - gadgetsmenu.mysteryboxes.open.2
+    - gadgetsmenu.mysteryboxes.open.3
+    - gadgetsmenu.mysteryboxes.open.4
+    inheritance:
+    - Default
+    - g:essentials_builder
+    - g:towny_builder
+    info:
+      build: true
+      prefix: '&b[MVP&c+&b] '
+      suffix: ''
+  Admin:
+    default: false
+    permissions: []
+    inheritance:
+    - moderator
+    - supersystem.*
+    - chatcolor.use
+    - crispydisguise.disguise
+    - crispydisguise.undisguise
+    - crispydisguise.disguisecheck
+    - g:groupmanager_admin
+    - g:bukkit_admin
+    - g:essentials_admin
+    - g:towny_admin
+    - g:vanish_admin
+    - gadgetsmenu.animations.*
+    info:
+      build: true
+      prefix: '&c[ADMIN]'
+      suffix: '&c[ADMIN]'
+  Default:
+    default: true
+    permissions:
+    - -bukkit.command.kill
+    - modifyworld.*
+    - gadgetsmenu.cooldown.bypass
+    - gadgetsmenu.menuselector
+    - nofall.use
+    - joineffect.speed
+    inheritance:
+    - g:groupmanager_default
+    - g:bukkit_default
+    - g:essentials_default
+    - g:towny_default
+    info:
+      build: false
+      prefix: '&7'
+      suffix: '&7'
+  YT:
+    default: false
+    permissions:
+    - modifyworld.*
+    - gadgetsmenu.cooldown.bypass
+    - gadgetsmenu.menuselector
+    - gadgetsmenu.cosmetics.*
+    - gadgetsmenu.mysteryboxes.open.1
+    - gadgetsmenu.mysteryboxes.open.2
+    - gadgetsmenu.mysteryboxes.open.3
+    - gadgetsmenu.mysteryboxes.open.4
+    - gadgetsmenu.mysteryboxes.open.5
+    - gadgetsmenu.animations.*
+    inheritance:
+    - Default
+    info:
+      build: false
+      prefix: '&c[&rYOUTUBE&c] '
+      suffix: '&c[&rYOUTUBE&c] '

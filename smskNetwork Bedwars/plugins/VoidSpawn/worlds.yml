@@ -1,0 +1,11 @@
+version: 1
+color-logs: true
+world:
+  spawn:
+    x: -25.5
+    y: 70.0
+    z: 0.5
+    pitch: -0.010957906
+    yaw: -89.801155
+    world: world
+  mode: spawn

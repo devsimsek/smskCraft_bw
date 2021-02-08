@@ -1,0 +1,31 @@
+users:
+  596b899a-285d-40e1-97e1-1c7dc2af2700:
+    lastname: CrispyBow
+    group: Owner
+    subgroups: []
+    permissions: []
+  e38399ea-db8c-3c30-b482-0f25f68a92c8:
+    lastname: MuhsinSimsek
+    group: YT
+    subgroups: []
+    permissions: []
+  ElgarL:
+    group: Moderator
+    subgroups: []
+    permissions:
+    - groupmanager.noofflineperms
+  f8d7e8e9-0738-35ca-a096-0c925c105098:
+    lastname: mtnsmsk
+    group: Owner
+    subgroups: []
+    permissions: []
+  KHobbits:
+    group: Moderator
+    subgroups: []
+    permissions:
+    - groupmanager.noofflineperms
+  snowleo:
+    group: Builder
+    subgroups: []
+    permissions:
+    - groupmanager.noofflineperms

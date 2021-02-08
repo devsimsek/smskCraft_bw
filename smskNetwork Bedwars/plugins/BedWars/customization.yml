@@ -1,0 +1,423 @@
+Message:
+  In Game: '&fGame already started.'
+  Full: '&fArena is full.'
+  Console: '&fYou must be a &cplayer&f.'
+  In Arena: '&cYou''re already in an arena.'
+  No On Arena: '&cYou''re not in any arena.'
+  No Exist: '&cArena does not exist.'
+  No Permission: '&cYou don''t have permission!'
+  Join: '&7<player> &ehas joined (&b<on>&e/&b<max>&e)!'
+  Quit: '&7<player> &ehas quit!'
+  Rejoin: '&7<player> &ereconnected!'
+  Starting: '&eThe game starts in &6<time>&e seconds!'
+  Waiting: '&cWaiting for players...'
+  Usage: '&4Error: &cUsage &f<cmd>&c.'
+  No Player: '&cCan''t find a player by the name of ''<PLAYER>'''
+  Find: '&e<PLAYER> is on <ARENA>.'
+  No Rejoin: '&cNo game to rejoin!'
+  No Team Space: '&cThere is no free space in that team!'
+  Team Joined: '&aYou joined the <TEAM> &ateam'
+  Party:
+    Not Leader Join: '&cOnly the party leader can warp you into a game! Have them
+      click to join or &b/party leave'
+    Not Leader Invite:
+    - '&6-----------------------------------------------------'
+    - '&cYou must be the party leader to invite players to your party!'
+    - '&6-----------------------------------------------------'
+    Help:
+    - '&6-----------------------------------------------------'
+    - '&e<CMD_HELP> &7- &bPrints this help message'
+    - '&e<CMD_INVITE> &7- &bInvites the player to your party'
+    - '&e<CMD_LEAVE> &7- &bLeaves the current party'
+    - '&e<CMD_LIST> &7- &bLists the members of you party'
+    - '&e<CMD_PROMOTE> &7- &bPromote the player to the party leader'
+    - '&e<CMD_REMOVE> &7- &bRemove the player from your party'
+    - '&e<CMD_WARP> &7- &bTeleport the members of your party to your server'
+    - '&e<CMD_ACCEPT> &7- &bAccept a party invite from the player'
+    - '&e<CMD_DISBAND> &7- &bDisbands the party'
+    - '&e<CMD_SETTINGS> &7- &bModify settings for your party'
+    - '&e<CMD_MUTE> &7- &bToggles mute for the party'
+    - '&e<CMD_KICKOFFLINE> &7- &bKick offline players from the party'
+    - '&e<CMD_BLOCK> &7- &bBlock all party invites'
+    - '&6-----------------------------------------------------'
+    Settings:
+    - '&6-----------------------------------------------------'
+    - '&aModify settings for oyu party. Only usable by Party Leader.'
+    - '&aSettings:'
+    - '&e<CMD_ALLINVITE> &7- &bAllow all players to invite players to the party'
+    - '  '
+    - '&cInvalid usage! ''/party settings <setting> <value>'''
+    - '&6-----------------------------------------------------'
+    Settings ALLINVITE:
+      'On':
+      - '&6-----------------------------------------------------'
+      - '&<LEADER> &aenabled All Invite'
+      - '&6-----------------------------------------------------'
+      'Off':
+      - '&6-----------------------------------------------------'
+      - '&<LEADER> &adisabled All Invite'
+      - '&6-----------------------------------------------------'
+    Cannot Invite:
+    - '&6-----------------------------------------------------'
+    - '&cYou cannot invite this player to your party!'
+    - '&6-----------------------------------------------------'
+    Invited:
+    - '&6-----------------------------------------------------'
+    - <SENDER>&e invited <INVITED>&e to the party! They have 60 seconds to accept.
+    - '&6-----------------------------------------------------'
+    Invite:
+    - '&6-----------------------------------------------------'
+    - <SENDER>&e has invited you to join their party!
+    - <CLICKABLE>&6Click here&e to join! You have <INVITETIMEOUT> seconds to accept.
+    - '&6-----------------------------------------------------'
+    Cannot Invite You:
+    - '&6-----------------------------------------------------'
+    - '&cYou cannot invite yourself to a party!'
+    - '&6-----------------------------------------------------'
+    Cannot Invite Offline:
+    - '&6-----------------------------------------------------'
+    - '&cYou can''t invite <PLAYER> &cto the party beacause they''re not online!'
+    - '&6-----------------------------------------------------'
+    Already Invited:
+    - '&6-----------------------------------------------------'
+    - <INVITED>&c has already been invited to the party! Wait for them to accept!
+    - '&6-----------------------------------------------------'
+    Not Invited:
+    - '&6-----------------------------------------------------'
+    - '&cYou haven''t been invited to a party, or the invitation has expired!'
+    - '&6-----------------------------------------------------'
+    You Joined:
+    - '&6-----------------------------------------------------'
+    - '&aYou joined <SENDER>&a''s party!'
+    - '&6-----------------------------------------------------'
+    Already In Party:
+    - '&6-----------------------------------------------------'
+    - '&cYou are already in a party and must first leave your current party!'
+    - '&6-----------------------------------------------------'
+    Must Be In Party:
+    - '&6-----------------------------------------------------'
+    - '&cYou must be in a party to use this command!'
+    - '&6-----------------------------------------------------'
+    Player Has Left:
+    - '&6-----------------------------------------------------'
+    - <PLAYER> &ahas left your party
+    - '&6-----------------------------------------------------'
+    Player Joined:
+    - '&6-----------------------------------------------------'
+    - <PLAYER> &ajoined the party!
+    - '&6-----------------------------------------------------'
+    Player Removed:
+    - '&6-----------------------------------------------------'
+    - <PLAYER> &ahas been removed from your party
+    - '&6-----------------------------------------------------'
+    You Removed:
+    - '&6-----------------------------------------------------'
+    - '&cYou have been removed from your party!'
+    - '&6-----------------------------------------------------'
+    Player Promoted:
+    - '&6-----------------------------------------------------'
+    - <LEADER> &ehas promoted <PLAYER> &eto party leader!
+    - '&6-----------------------------------------------------'
+    You Left:
+    - '&6-----------------------------------------------------'
+    - '&aYou left the party'
+    - '&6-----------------------------------------------------'
+    List:
+    - '&6-----------------------------------------------------'
+    - '&aParty members (<NUMBER>): <PLAYERS>'
+    - '&6-----------------------------------------------------'
+    Not Leader Command:
+    - '&6-----------------------------------------------------'
+    - '&cYou must be the Party Leader to use that command!'
+    - '&6-----------------------------------------------------'
+    Not Leader Disband: '&cYou must be the Party Leader to use that command! Use &b/party
+      leave &cinstead.'
+    Not In Party:
+    - '&6-----------------------------------------------------'
+    - <PLAYER> &cis not in your party! Invite them first!
+    - '&6-----------------------------------------------------'
+    Disbanded:
+    - '&6-----------------------------------------------------'
+    - <PLAYER> &ehas disbanded the party!
+    - '&6-----------------------------------------------------'
+    Already In Your Party:
+    - '&6-----------------------------------------------------'
+    - <PLAYER> &cis already in the party!
+    - '&6-----------------------------------------------------'
+    No Offline Players:
+    - '&6-----------------------------------------------------'
+    - '&eNo offline players to kick!'
+    - '&6-----------------------------------------------------'
+    No More Players:
+    - '&6-----------------------------------------------------'
+    - '&eThe party was disbanded because all invites have expired and all members
+      have left.'
+    - '&6-----------------------------------------------------'
+    Invite Title: '&6Invite a Player'
+    Invite Subtitle: '&fType in chat the name of the player'
+    Blocked: '&aNow &cno one&a can send you party invites.'
+    Not Blocked: '&aNow anyone can send you party invites.'
+  Top:
+    Header: '   &e&lBED WARS &f&l- &e&lTOP 10'
+    Format: '<NUMBER>) &e<PLAYER>: &f<SCORE>'
+  Diamond Upgrade: '&bDiamond Generators &fhas been upgraded to tier &c<TIER>'
+  Emerald Upgrade: '&aEmerald Generators &fhas been upgraded to tier &c<TIER>'
+  Beds Destroyed: '&c&lAll beds have been destroyed!'
+  Bed Destroyed:
+  - ' '
+  - '&f&lBED DESTRUCTION > <BED> Bed &7was destroyed by <PLAYER>&7!'
+  - '  '
+  Eliminated:
+  - ' '
+  - '&f&lTEAM ELIMINATED > <TEAM> Team &chas been eliminated!'
+  - '  '
+  Win:
+  - '&a&m---------------------------------------------------'
+  - '&f&lBed Wars'
+  - ' '
+  - <TEAM> &7- <PLAYER>
+  - '  '
+  - '    '
+  - '&e&l1st Killer &7- &f<PLAYER_1> &7- <KILLS_1>'
+  - '&6&l2nd Killer &7- &f<PLAYER_2> &7- <KILLS_2>'
+  - '&c&l3rd Killer &7- &f<PLAYER_3> &7- <KILLS_3>'
+  - '     '
+  - '&a&m---------------------------------------------------'
+  Start:
+  - '&a&m---------------------------------------------------'
+  - '&f&lBed Wars'
+  - ' '
+  - '&e&lProtect your bed and destroy enemy beds.'
+  - '&e&lUpgrade yourself and your team by collecting'
+  - '&e&lIron, Gold, Emerald and Diamond from generators'
+  - '&e&lto access powerful upgrades.'
+  - '&a&m---------------------------------------------------'
+  Reward:
+  - '&3&m---------------------------------------------------'
+  - '&lReward Summary'
+  - '&a'
+  - '&bBed Wars Experience'
+  - '     &bLevel <LEVEL1>                                      Level <LEVEL2>'
+  - '&8[<BAR>&8]'
+  - '&b<EXPH> &7/ &a<EXPN>'
+  - '&c'
+  - '&7You earned &b<EXP> BedWars Experience'
+  - '&7You earned &6<COINS> BedWars Coins'
+  - '&6'
+  - '&3&m---------------------------------------------------'
+  Hit: <TARGET>&f is now <HEALTH>&f.
+  Death:
+    Void: <PLAYER> &7fell into void.
+    Void1: <PLAYER> &7was knocked into the void by <KILLER>&7.
+    Arrow: <PLAYER> &7was shot by <KILLER>&7.
+    Kill: <PLAYER> &7was killed by <KILLER>&7.
+    Iron Golem: <PLAYER> &7was killed by <KILLER>'s Iron Golem&7.
+    Silverfish: <PLAYER> &7was killed by <KILLER>'s Silverfish&7.
+    Died: <PLAYER> &7died&7.
+    Final Kill: ' &b&lFINAL KILL'
+  Your Bed: '&cYou can''t destroy your bed!'
+  No Place: '&cYou can''t place block here!'
+  No Destroy: '&cYou can only break blocks placed by a player!'
+  Stats:
+  - '   &e&lBED WARS &f&l- &e&l%bedwars_player%''s stats'
+  - ' '
+  - '&eLevel: &f%bedwars_level%'
+  - '&eKills: &f%bedwars_kills%'
+  - '&eFinal Kills: &f%bedwars_finalkills%'
+  - '&eBed Destroyed: &f%bedwars_beddestroyed%'
+  - '&eDeaths: &f%bedwars_deaths%'
+  - '&eCoins: &f%bedwars_coins%'
+  - '&eWins: &f%bedwars_wins%'
+No Chest: '&fYou must be in team <TEAM> &fto access the chest.'
+Title:
+  In Waiting: Waiting...
+  Starting: Starting
+  In Game: In Game
+  End: End
+  Victory: '&6&lVICTORY!'
+  Game Over: '&c&lGAME OVER!!'
+  Scoreboard:
+    Title:
+    - '&f&lBED WARS V8'
+    - '&e&lB&f&lED WARS V8'
+    - '&6&lB&e&lE&f&lD WARS V8'
+    - '&e&lB&6&lE&e&lD &f&lWARS V8'
+    - '&lB&e&lE&6&lD &e&lW&f&lARS V8'
+    - '&lBE&e&lD &6&lW&e&lA&f&lRS V8'
+    - '&lBED &e&lW&6&lA&e&lR&f&lS V8'
+    - '&lBED W&e&lA&6&lR&e&lS V8'
+    - '&lBED WA&e&lR&6&lS V8'
+    - '&lBED WAR&e&lS V8'
+    - '&e&lBED WARS V8'
+    - '&f&lBED WARS V8'
+    - '&e&lBED WARS V8'
+    Diamond Upgrade: 'Diamond Upgrade:'
+    Emerald Upgrade: 'Emerald Upgrade:'
+    Diamond Maxed: 'Diamond Maxed:'
+    Emerald Maxed: 'Emerald Maxed:'
+    Bed Destruction: 'Bed Destruction:'
+    Sudden Death: 'Sudden Death:'
+    Game End: 'Game End:'
+  You: '&7(You)'
+  Respawn:
+    Title: '&cYOU DIED!'
+    Subtitle: '&eYou will respawn in &c<TIME> &eseconds!'
+  Respawned:
+    Title: '&aRespawned!'
+  Bed Destroyed:
+    Title: ' &cBED DESTROYED!'
+    All:
+      Subtitle: ' &fAll beds have been destroyed!'
+    You:
+      Subtitle: ' &fYour bed has been destroyed by &e&l<PLAYER>&f.'
+Sign:
+  Title: '&a» &8BedWars &a«'
+  Arena: '&c<ARENA>'
+  State: '&5• &f&l<STATE> &5•'
+  Players: '&c»&8&l <ON>/<MAX> &c«'
+Team:
+  Name:
+    RED: RED
+    BLUE: BLUE
+    GREEN: GREEN
+    YELLOW: YELLOW
+    AQUA: AQUA
+    WHITE: WHITE
+    PINK: PINK
+    GRAY: GRAY
+Items:
+  Rejoin:
+    Name: '&cClick here to rejoin!'
+    Lore:
+    - '&7Click here to rejoin your'
+    - '&7game if you have been'
+    - '&7disconnected from it.'
+  Close:
+    Name: '&cClose'
+  Map Selector:
+    Name: '&aMap Selector (<MODE>)'
+    Lore:
+    - '&7Pick which map you want to play'
+    - '&7from alist of available maps.'
+    - ' '
+    - '&eClick to browse!'
+  Play:
+    Name: '&aBedWars (<MODE>)'
+    Lore:
+    - '&7Play BedWars'
+    - ' '
+    - '&eClick to play!'
+  Team Selector:
+    Name: <MODE> team
+    Lore:
+    - '&7<ON>&7/&7<MAX> &7players'
+    - ' '
+    - '&eClick to join!'
+Mode:
+  Solo: Solo
+  Doubles: Doubles
+  Triples: Triples
+  Quadruples: Quadruples
+Hologram:
+  '1': '&eTier &c<TIER>'
+  '2':
+    Diamond: '&b&lDiamond'
+    Emerald: '&a&lEmerald'
+  '3': '&eSpawns in &c<TIME> &eseconds'
+  Defend: '&cDefend your Bed.'
+  Destroyed: '&7Bed was destroyed by &6<PLAYER>.'
+  Stats:
+  - '&6&lYour Bed Wars Profile'
+  - '&fYour Level: &7%bedwars_level%'
+  - '&fProgress: %bedwars_progress%'
+  - 'Total Wins: &a%bedwars_wins%'
+  - 'Total Kills: &a%bedwars_kills%'
+  Top Header: '&b&lBed Wars - Top Kills'
+  Top Format: '&e<NUMBER>. &6<PLAYER> &7-&e <SCORE>'
+Compass:
+  Team: Team
+  Resource: Resource
+  Send: '&eClick to send!'
+  Select: '&7Select an option:'
+  Chat Format: '&a&lTEAM > &7<PLAYER>&f: &a<MESSAGE>'
+  I: '&aHello (^.^)'
+  II: '&aI''m coming back to base!'
+  III: '&aI''m defending!'
+  IV: '&aI''m attacking!'
+  V: '&aI''m collecting!'
+  VI: '&aI have resources!'
+  VII: '&aThank You!'
+  VIII: '&aGet back to base!'
+  IX: '&aPlease defend!'
+  X: '&aLet''s attack!'
+  XI: '&aWe need resources!'
+  XII: '&7&lIRON'
+  XIII: '&6&lGOLD'
+  XIV: '&b&lDIAMOND'
+  XV: '&2&lEMERALD'
+  XVI: '&aLet''s attack'
+  XVII: '&aI''m attacking'
+  XVIII: '&aWe need'
+  XIX: '&aI have'
+  XX: '&aI''m collecting'
+  Quick Communications: Quick Communications
+Scoreboard:
+  Lobby:
+  - '&c'
+  - '&fYour Level: &7%bedwars_level%'
+  - ' '
+  - '&fProgress: &7%bedwars_progress%'
+  - '&8[&7%bedwars_bar%&8]'
+  - '&b'
+  - '&fLoot Chests: &60'
+  - '&0'
+  - '&fCoins: &a%bedwars_coins%'
+  - '&d'
+  - '&fTotal Kills: &a%bedwars_kills%'
+  - '&fTotal Wins: &a%bedwars_wins%'
+  - ' '
+  - '&ebw.smsk.ga'
+  Waiting:
+  - ' '
+  - 'Map: &a%bedwars_arena%'
+  - 'Players: &a%bedwars_arena_online%/%bedwars_arena_max%'
+  - '&a'
+  - '%bedwars_arena_state%'
+  - '  '
+  - 'Server: &aMini4G'
+  - '     '
+  - '&ebw.smsk.ga'
+  In Game:
+  - '&7%bedwars_data%'
+  - ' '
+  - '%bedwars_title%'
+  - '&a%bedwars_timer%'
+  - '  '
+  - '%bedwars_arena_teams%'
+  - '    '
+  - '&ebw.smsk.ga'
+  Teams:
+  - '&c&lR &fRed: %bedwars_info_RED%'
+  - '&9&lB &fBlue: %bedwars_info_BLUE%'
+  - '&a&lG &fGreen: %bedwars_info_GREEN%'
+  - '&e&lY &fYellow: %bedwars_info_YELLOW%'
+  - '&b&lA &fAqua: %bedwars_info_AQUA%'
+  - '&f&lW &fWhite: %bedwars_info_WHITE%'
+  - '&d&lP &fPink: %bedwars_info_PINK%'
+  - '&8&lG &fGray: %bedwars_info_GRAY%'
+  Game Stats:
+  - ' '
+  - '&fKills: &a%bedwars_arena_kills%'
+  - '&fFinal Kills: &a%bedwars_arena_finalkills%'
+  - '&fBeds Broken: &a%bedwars_arena_beds%'
+Spectator:
+  Teleport:
+    Inventory: Teleport
+  Settings:
+    Inventory: Spectator Settings
+    Items:
+      No Speed: '&cNo Speed'
+      Speed I: '&eSpeed I'
+      Speed II: '&eSpeed II'
+      Speed III: '&eSpeed III'
+      Speed IV: '&eSpeed IV'

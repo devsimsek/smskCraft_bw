@@ -1,0 +1,1 @@
+java -Dfile.encoding=UTF-8 -Xmx1G -jar spigot-1.8.8.jar

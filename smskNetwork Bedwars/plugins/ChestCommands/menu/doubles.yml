@@ -1,0 +1,78 @@
+######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # name - appears as the title - REQUIRED
+  name: '&8Play Bed Wars'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 4
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  # Bind multiple commands using ; (command: 'menu; m; me')
+  command: ''
+
+  # auto-refresh - OPTIONAL
+  # How frequently the menu will be refreshed, in seconds.
+  # Useful if you have variables in items' descriptions.
+  auto-refresh: 0
+
+  # This command command will be execute when the menu is opened.
+  # Supports all the icon command types.
+  open-action: ''
+
+  # open-with-item - OPTIONAL
+  # The menu will open only right-clicking with orange wool [35:1]
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+
+bed:
+  COMMAND: 'bw randomjoin 2'
+  NAME: '&aBed Wars (Doubles)'
+  LORE:
+    - '&7Play Bed Wars Doubles'
+    - '&c'
+    - '&eClick to play!'
+  ID: bed
+  DATA: 5
+  POSITION-X: 4
+  POSITION-Y: 2
+sign:
+  COMMAND: ''
+  NAME: '&aMap Selector (Doubles)'
+  LORE:
+    - '&7Pick wich map you want to play'
+    - '&7from a list of available servers.'
+    - '&c'
+    - '&eClick to browse!'
+  ID: 323
+  KEEP-OPEN: true
+  DATA: 5
+  POSITION-X: 6
+  POSITION-Y: 2
+close:
+  NAME: '&cClose'
+  ID: 166
+  DATA: 5
+  POSITION-X: 5
+  POSITION-Y: 4
+rejoin:
+  COMMAND: 'rejoin'
+  NAME: '&cClick here to rejoin!'
+  LORE:
+    - '&7Click here to rejoin your'
+    - '&7game if you have been'
+    - '&7disconnected from it.'
+  ID: 368
+  DATA: 5
+  POSITION-X: 9
+  POSITION-Y: 4

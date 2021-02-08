@@ -1,0 +1,15 @@
+game-menu:
+  name: '&aGame Menu &7(Right Click)'
+  id: 345
+  slot: 1
+  lore:
+  - '&7Right Click to bring up the Game Menu!'
+  command: 'op:chestcommands open server.yml'
+  cooldown-seconds: 0
+  permission: ''
+  give-at-respawn: true
+  first-join-only: false
+  allow-drop: false
+  block-movement: false
+  disabled-worlds: world_nether, world_the_end, Treenan, Hollow, Waterfall, Chained, Pernicious
+  give-on-world-change: true

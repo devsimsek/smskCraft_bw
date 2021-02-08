@@ -1,0 +1,17 @@
+NPCS:
+  '0':
+    Commands:
+    - 1~~~chestcommands open solo~~~noPerm~~~BOTH~~~~~~false~~~true~~~false~~~0.0~~~0~~~0~~~false~~~false
+  '1':
+    Commands:
+    - 1~~~chestcommands open doubles~~~noPerm~~~BOTH~~~~~~false~~~true~~~false~~~0.0~~~0~~~0~~~false~~~false
+  '2':
+    Commands:
+    - 1~~~chestcommands open 3v3v3v3~~~noPerm~~~BOTH~~~~~~false~~~true~~~false~~~0.0~~~0~~~0~~~false~~~false
+  '3':
+    Commands:
+    - 1~~~chestcommands open 4v4v4v4~~~noPerm~~~BOTH~~~~~~false~~~true~~~false~~~0.0~~~0~~~0~~~false~~~false
+  '4':
+    Commands:
+    - 1~~~chestcommands open thongtin.yml~~~noPerm~~~BOTH~~~~~~false~~~true~~~false~~~0.0~~~0~~~0~~~false~~~false
+    - 2~~~chestcommands open thongtin.yml~~~noPerm~~~BOTH~~~~~~false~~~true~~~false~~~0.0~~~0~~~0~~~false~~~false
